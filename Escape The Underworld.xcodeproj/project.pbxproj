@@ -13,7 +13,6 @@
 		210A14A319AFDE400038BC72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 210A14A119AFDE400038BC72 /* InfoPlist.strings */; };
 		210A14A519AFDE400038BC72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210A14A419AFDE400038BC72 /* main.m */; };
 		210A14A919AFDE400038BC72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 210A14A819AFDE400038BC72 /* AppDelegate.m */; };
-		210A14AC19AFDE400038BC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A14AA19AFDE400038BC72 /* Main.storyboard */; };
 		210A14AF19AFDE400038BC72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 210A14AE19AFDE400038BC72 /* ViewController.m */; };
 		210A14B119AFDE400038BC72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A14B019AFDE400038BC72 /* Images.xcassets */; };
 		210A14B819AFDE400038BC72 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210A14B719AFDE400038BC72 /* XCTest.framework */; };
@@ -21,6 +20,15 @@
 		210A14BA19AFDE400038BC72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210A149C19AFDE400038BC72 /* UIKit.framework */; };
 		210A14C219AFDE400038BC72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 210A14C019AFDE400038BC72 /* InfoPlist.strings */; };
 		210A14C419AFDE400038BC72 /* Escape_The_UnderworldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210A14C319AFDE400038BC72 /* Escape_The_UnderworldTests.m */; };
+		210A14D419AFDE9C0038BC72 /* Game Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 210A14CF19AFDE9C0038BC72 /* Game Background.jpg */; };
+		210A14D619AFDE9C0038BC72 /* Title Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 210A14D119AFDE9C0038BC72 /* Title Screen.jpg */; };
+		210A14D919AFE26B0038BC72 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 210A14D819AFE26B0038BC72 /* Game.m */; };
+		210A14E219AFF6300038BC72 /* BirdDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 210A14E019AFF6300038BC72 /* BirdDown.png */; };
+		210A14E319AFF6300038BC72 /* BirdUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 210A14E119AFF6300038BC72 /* BirdUp.png */; };
+		210A14E719AFFADE0038BC72 /* bound.png in Resources */ = {isa = PBXBuildFile; fileRef = 210A14E619AFFADE0038BC72 /* bound.png */; };
+		210A14E919AFFC320038BC72 /* upsidespike.png in Resources */ = {isa = PBXBuildFile; fileRef = 210A14E819AFFC320038BC72 /* upsidespike.png */; };
+		210A14EB19B157A10038BC72 /* spike2.png in Resources */ = {isa = PBXBuildFile; fileRef = 210A14EA19B157A10038BC72 /* spike2.png */; };
+		210A14EE19B15D1B0038BC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A14EC19B15D1B0038BC72 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +52,6 @@
 		210A14A619AFDE400038BC72 /* Escape The Underworld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Escape The Underworld-Prefix.pch"; sourceTree = "<group>"; };
 		210A14A719AFDE400038BC72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		210A14A819AFDE400038BC72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		210A14AB19AFDE400038BC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		210A14AD19AFDE400038BC72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		210A14AE19AFDE400038BC72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		210A14B019AFDE400038BC72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +60,16 @@
 		210A14BF19AFDE400038BC72 /* Escape The UnderworldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Escape The UnderworldTests-Info.plist"; sourceTree = "<group>"; };
 		210A14C119AFDE400038BC72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		210A14C319AFDE400038BC72 /* Escape_The_UnderworldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Escape_The_UnderworldTests.m; sourceTree = "<group>"; };
+		210A14CF19AFDE9C0038BC72 /* Game Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Game Background.jpg"; sourceTree = "<group>"; };
+		210A14D119AFDE9C0038BC72 /* Title Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Title Screen.jpg"; sourceTree = "<group>"; };
+		210A14D719AFE26B0038BC72 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../../Game.h; sourceTree = "<group>"; };
+		210A14D819AFE26B0038BC72 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../../Game.m; sourceTree = "<group>"; };
+		210A14E019AFF6300038BC72 /* BirdDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdDown.png; sourceTree = "<group>"; };
+		210A14E119AFF6300038BC72 /* BirdUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdUp.png; sourceTree = "<group>"; };
+		210A14E619AFFADE0038BC72 /* bound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bound.png; sourceTree = "<group>"; };
+		210A14E819AFFC320038BC72 /* upsidespike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upsidespike.png; sourceTree = "<group>"; };
+		210A14EA19B157A10038BC72 /* spike2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spike2.png; sourceTree = "<group>"; };
+		210A14ED19B15D1B0038BC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +131,11 @@
 			children = (
 				210A14A719AFDE400038BC72 /* AppDelegate.h */,
 				210A14A819AFDE400038BC72 /* AppDelegate.m */,
-				210A14AA19AFDE400038BC72 /* Main.storyboard */,
 				210A14AD19AFDE400038BC72 /* ViewController.h */,
 				210A14AE19AFDE400038BC72 /* ViewController.m */,
+				210A14EC19B15D1B0038BC72 /* Main.storyboard */,
+				210A14D719AFE26B0038BC72 /* Game.h */,
+				210A14D819AFE26B0038BC72 /* Game.m */,
 				210A14B019AFDE400038BC72 /* Images.xcassets */,
 				210A149F19AFDE400038BC72 /* Supporting Files */,
 			);
@@ -126,6 +145,13 @@
 		210A149F19AFDE400038BC72 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				210A14E619AFFADE0038BC72 /* bound.png */,
+				210A14E019AFF6300038BC72 /* BirdDown.png */,
+				210A14E819AFFC320038BC72 /* upsidespike.png */,
+				210A14EA19B157A10038BC72 /* spike2.png */,
+				210A14E119AFF6300038BC72 /* BirdUp.png */,
+				210A14CF19AFDE9C0038BC72 /* Game Background.jpg */,
+				210A14D119AFDE9C0038BC72 /* Title Screen.jpg */,
 				210A14A019AFDE400038BC72 /* Escape The Underworld-Info.plist */,
 				210A14A119AFDE400038BC72 /* InfoPlist.strings */,
 				210A14A419AFDE400038BC72 /* main.m */,
@@ -228,9 +254,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210A14E219AFF6300038BC72 /* BirdDown.png in Resources */,
+				210A14EE19B15D1B0038BC72 /* Main.storyboard in Resources */,
+				210A14E719AFFADE0038BC72 /* bound.png in Resources */,
 				210A14B119AFDE400038BC72 /* Images.xcassets in Resources */,
+				210A14E919AFFC320038BC72 /* upsidespike.png in Resources */,
+				210A14E319AFF6300038BC72 /* BirdUp.png in Resources */,
+				210A14D619AFDE9C0038BC72 /* Title Screen.jpg in Resources */,
+				210A14D419AFDE9C0038BC72 /* Game Background.jpg in Resources */,
 				210A14A319AFDE400038BC72 /* InfoPlist.strings in Resources */,
-				210A14AC19AFDE400038BC72 /* Main.storyboard in Resources */,
+				210A14EB19B157A10038BC72 /* spike2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +285,7 @@
 				210A14AF19AFDE400038BC72 /* ViewController.m in Sources */,
 				210A14A919AFDE400038BC72 /* AppDelegate.m in Sources */,
 				210A14A519AFDE400038BC72 /* main.m in Sources */,
+				210A14D919AFE26B0038BC72 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,20 +316,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		210A14AA19AFDE400038BC72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				210A14AB19AFDE400038BC72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		210A14C019AFDE400038BC72 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				210A14C119AFDE400038BC72 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		210A14EC19B15D1B0038BC72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210A14ED19B15D1B0038BC72 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
